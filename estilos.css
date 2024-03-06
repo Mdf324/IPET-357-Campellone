@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cuadro-sinoptico {
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .cuadro-sinoptico h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .cuadro-sinoptico ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cuadro-sinoptico li {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #ffcc80;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cuadro-sinoptico li::before {
+    content: "• ";
+    color: #333;
+  }
+  
+  .cuadro-sinoptico li:nth-child(2n) {
+    background-color: #64b5f6;
+  }
+  
+  .cuadro-sinoptico li:nth-child(3n) {
+    background-color: #81c784;
+  }
+  
+  .cuadro-sinoptico li:nth-child(4n) {
+    background-color: #9575cd;
+  }
+  
+  .cuadro-sinoptico li:nth-child(5n) {
+    background-color: #ffb74d;
+  }
+  
+  .cuadro-sinoptico li:nth-child(6n) {
+    background-color: #4db6ac;
+  }
+  
+  .cuadro-sinoptico li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .texto {
+  padding: 10px 10px; /* Modificar el valor del padding según sea necesario */
+  background-color: #fff;
+  border-radius: 5x;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
